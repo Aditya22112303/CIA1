@@ -1,6 +1,6 @@
 # CIA1
 ## TRACKEDGE-THE ACCOUNTING TOOL
-1.DESCRIPTION: Basically in this project we have tried to design a simple accounting system to keep track of the expenses.Which is based on the concept of journal entry(Debit- the balance  what comes in the account and Credit- the balance what goes out of the account).
+1.DESCRIPTION: The trackedge project is designed to be an e-ledger accounting tool following the principle of accounting. We have utilised Pthton for our back-end programming, SQL as the Database Managament Interface (SQLite3 package of Python). It has been designed to be mainly utilised to keep a digital record of Accounting Ledgers. The Account Numbers act as the Database and the various ledgers linked to it are the Tables stored in that database. We have then ut
 
 2.SOME OF THE IMPORTANT FUNCTIONS USED: 
 
@@ -176,5 +176,7 @@ if(sno >= len(Data) or len(Data) == 0):
 4. HOW TO RUN THE PROGRAM: 
 When the user will run the program,the user will be able to see an interface somewhat like the screenshot below.
 ![Screenshot (44)](https://github.com/Aditya22112303/CIA1/assets/118894516/63e34755-7c9f-4648-bfda-93892d943016)
+![Screenshot (38)](https://github.com/Aditya22112303/CIA1/assets/118894516/c60d4a89-e906-48c3-b581-69781de56337)
+
 
 
