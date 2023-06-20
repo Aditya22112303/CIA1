@@ -96,8 +96,9 @@ User-Defined Function to add records to the existing ledger.
     conn.commit()
     conn.close()
 ...
-
+...
 User-Defined Function to display the ledger.
+...
 ```python
     def diplay(name,db):
     conn = sqlite3.connect(db)
