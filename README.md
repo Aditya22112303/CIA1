@@ -15,6 +15,7 @@ User-Defined Function to display the database the we have created through the in
     print(tabulate(cursor.fetchall(), headers = ["The Ledgers are"]))
     conn.close()
 ```
+
 User-Defined Function to create the ledger.
 ```python
      def create_table(name, db):
@@ -99,7 +100,7 @@ User-Defined Function to add records to the existing ledger.
     conn.close()
 ```
 
-User-Defined Function to display the ledger
+User-Defined Function to display the ledger.
 ```python
     def diplay(name,db):
     conn = sqlite3.connect(db)
@@ -113,7 +114,7 @@ User-Defined Function to display the ledger
     conn.close()
 ```
 
-User-Defined Function to add record between the  ledgers.
+User-Defined Function to add record between existing records in the ledgers.
 ```python
     def update_between(name, db):
     conn = sqlite3.connect(db)
@@ -156,7 +157,7 @@ def del_rec(name,db,sno):
     conn.close()
 ```
 
-User-Defined Function to update ledger from the records.
+User-Defined Function to update a existing record in the ledger.
 ```python
 def update_rec(name,db,sno):
     del_rec(name,db,sno)
