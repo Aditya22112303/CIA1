@@ -98,7 +98,7 @@ User-Defined Function to add records to the existing ledger.
 ...
 
 User-Defined Function to display the ledger.
-```python
+ ```python
     def diplay(name,db):
     conn = sqlite3.connect(db)
     cuobj = conn.cursor()
@@ -109,7 +109,7 @@ User-Defined Function to display the ledger.
     print(table)
     conn.commit()
     conn.close()
-...
+ ...
 
 User-Defined Function to add record between the  ledgers.
 ```python
