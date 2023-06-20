@@ -1,6 +1,6 @@
 # CIA1
 ## TRACKEDGE-THE ACCOUNTING TOOL
-1.DESCRIPTION: The trackedge project is designed to be an e-ledger accounting tool following the principle of accounting. We have utilised Pthton for our back-end programming, SQL as the Database Managament Interface (SQLite3 package of Python). It has been designed to be mainly utilised to keep a digital record of Accounting Ledgers. The Account Numbers act as the Database and the various ledgers linked to it are the Tables stored in that database. We have then utilized the Tabulate package to display the ledgers in a tabular format. The front end would be the Python IDLE itself. 
+1.DESCRIPTION: The trackedge project is designed to be an e-ledger accounting tool following the principle of accounting. We have utilised Pthton for our back-end programming, SQL as the Database Managament Interface (SQLite3 package of Python). It has been designed to be mainly utilised to keep a digital record of Accounting Ledgers. The Account Numbers act as the Database and the various ledgers linked to it are the Tables stored in that database. We have then utilized the Tabulate package to display the ledgers in a tabular format. The front end would be the Python IDLE itself. The data would be stored in the form of a SQL Relational Database.
 
 Pre Requisits: The only pre requisits are for the SQLite3 and Tabulate packages to be installed prior to running the code. The is no need for any pre-existing databse for the code to run successfully. 
 
