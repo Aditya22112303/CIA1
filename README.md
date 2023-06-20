@@ -3,7 +3,8 @@
 1.DESCRIPTION: Basically in this project we have tried to design a simple accounting system to keep track of the expenses.Which is based on the concept of journal entry(Debit- the balance  what comes in the account and Credit- the balance what goes out of the account).
 
 2.FUNCTIONS USED: 
-... The below user defined function is used to display the database the we have created through the input of the user.
+
+The below user defined function is used to display the database the we have created through the input of the user.
 ```python
       def showtab(db):
     conn = sqlite3.connect(db)
@@ -12,7 +13,7 @@
     print(tabulate(cursor.fetchall(), headers = ["The Ledgers are"]))
     conn.close()
 ```
-... The below user defined function is used to create the ledger.
+The below user defined function is used to create the ledger.
 ```python
      def create_table(name, db):
     conn = sqlite3.connect(db)
