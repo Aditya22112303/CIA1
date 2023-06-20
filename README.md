@@ -111,7 +111,7 @@ User-Defined Function to display the ledger.
     conn.close()
 ...
 
-User-Defined Function to add record between the existing ledgers.
+User-Defined Function to add record between the  ledgers.
 ```python
     def update_between(name, db):
     conn = sqlite3.connect(db)
@@ -130,9 +130,7 @@ User-Defined Function to add record between the existing ledgers.
     conn.commit()
     conn.close()
 ...
-
-
-User-Defined Function to delete the whole ledger.
+..*User-Defined Function to delete the whole exisiting ledger.
 ```python
 def del_tab(name,db):
     conn = sqlite3.connect(db)
