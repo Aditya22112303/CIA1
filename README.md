@@ -178,7 +178,10 @@ if(sno >= len(Data) or len(Data) == 0):
 4. HOW TO RUN THE PROGRAM: 
 When the user will run the program,the user will be able to see an interface somewhat like the screenshot below.
 ![Screenshot (44)](https://github.com/Aditya22112303/CIA1/assets/118894516/63e34755-7c9f-4648-bfda-93892d943016)
+In the screenshot, 2 ledgers are already created and the user is creating the 3rd ledger by the name bank and then the user is choosing that the ledger entry amount is credit and then the user enetered the date.
 ![Screenshot (38)](https://github.com/Aditya22112303/CIA1/assets/118894516/c60d4a89-e906-48c3-b581-69781de56337)
+
+![Screenshot (39)](https://github.com/Aditya22112303/CIA1/assets/118894516/b1b09d1e-d071-4d78-b87d-60b6aa657e9b)
 
 
 
