@@ -97,8 +97,7 @@ User-Defined Function to add records to the existing ledger.
     conn.close()
 ...
 
-User-Defined Function to display the
-ledger.
+User-Defined Function to display the ledger.
  ```python
     def diplay(name,db):
     conn = sqlite3.connect(db)
@@ -110,7 +109,7 @@ ledger.
     print(table)
     conn.commit()
     conn.close()
- ...
+...
 
 User-Defined Function to add record between the  ledgers.
 ```python
@@ -131,7 +130,7 @@ User-Defined Function to add record between the  ledgers.
     conn.commit()
     conn.close()
 ...
-..*User-Defined Function to delete the whole exisiting ledger.
+User-Defined Function to delete the whole exisiting ledger.
 ```python
 def del_tab(name,db):
     conn = sqlite3.connect(db)
