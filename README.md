@@ -33,6 +33,7 @@ User-Defined Function to create the ledger.
     conn.commit()
     conn.close()    
 ```
+
 User-Defined Function to input values from the user.
 ```python
      def input_val():
@@ -61,6 +62,7 @@ User-Defined Function to input values from the user.
     
     return date,Part,JF,Amt
 ```
+
 User-Defined Function to add records to the existing ledger.
 ```python
      def update_end(name, db, sno=0):
@@ -94,6 +96,7 @@ User-Defined Function to add records to the existing ledger.
     conn.commit()
     conn.close()
 ...
+
 User-Defined Function to display the ledger.
 ```python
     def diplay(name,db):
@@ -107,6 +110,7 @@ User-Defined Function to display the ledger.
     conn.commit()
     conn.close()
 ...
+
 User-Defined Function to add record between the existing ledgers.
 ```python
     def update_between(name, db):
@@ -126,6 +130,8 @@ User-Defined Function to add record between the existing ledgers.
     conn.commit()
     conn.close()
 ...
+
+
 User-Defined Function to delete the whole ledger.
 ```python
 def del_tab(name,db):
@@ -136,6 +142,8 @@ def del_tab(name,db):
     conn.commit()
     conn.close()
 ...
+
+
 User-Defined Function to delete a specific record in the ledger.
 ```python
 def del_rec(name,db,sno):
@@ -147,12 +155,16 @@ def del_rec(name,db,sno):
     conn.commit()
     conn.close()
 ...
+
+
 User-Defined Function to update ledger from the records.
 ```python
 def update_rec(name,db,sno):
     del_rec(name,db,sno)
     update_end(name,db,sno)  
 ...
+
+
 3. ERROR HANDLING: The snippet is checking if the user entered the sl. No. of the last entry or if there are no prior entries. If either of these conditions is true, the snippet prints a message asking the user to select option 2. Otherwise, the snippet updates the sl. No. of all entries after the entered sl. No. by 1 and then calls the update_end() function to update the database.
 ```python
 if(sno >= len(Data) or len(Data) == 0):          
@@ -162,6 +174,8 @@ if(sno >= len(Data) or len(Data) == 0):
         cuobj.execute(st)
         update_end(name, db, sno)
 ...
+
+
 4. HOW TO RUN THE PROGRAM: 
 When the user will run the program,the user will be able to see an interface somewhat like the screenshot below.
 ![Screenshot (44)](https://github.com/Aditya22112303/CIA1/assets/118894516/63e34755-7c9f-4648-bfda-93892d943016)
