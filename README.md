@@ -16,7 +16,7 @@ User-Defined Function to display the ledgers present in the Database.
     conn.close()
 ```
 
-User-Defined Function to create a ledger.
+User-Defined Function to create a ledger.The table created will have a standard format of an Accounting Ledger.
 ```python
      def create_table(name, db):
     conn = sqlite3.connect(db)
@@ -37,7 +37,7 @@ User-Defined Function to create a ledger.
     conn.close()    
 ```
 
-User-Defined Function to input values from the user.
+User-Defined Function to input values of Date of the transaction, Particulars of the Transaction, the Journal Folio of the entry, and the Amount that was Debited/Credited in the transaction from the user.
 ```python
      def input_val():
     Date = []
@@ -66,7 +66,7 @@ User-Defined Function to input values from the user.
     return date,Part,JF,Amt
 ```
 
-User-Defined Function to add records to the existing ledger.
+User-Defined Function to add records to the existing ledger. Here the primary key is the Sl. No. and according to the type of transaction the respective columns would be filled and the remaining would be left empty.
 ```python
      def update_end(name, db, sno=0):
     conn = sqlite3.connect(db)
