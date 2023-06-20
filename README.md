@@ -109,7 +109,7 @@ User-Defined Function to display the ledger
     print(table)
     conn.commit()
     conn.close()
-...
+```
 
 User-Defined Function to add record between the  ledgers.
 ```python
@@ -129,10 +129,9 @@ User-Defined Function to add record between the  ledgers.
     
     conn.commit()
     conn.close()
-...
-...
+```
+
 User-Defined Function to delete the whole exisiting ledger.
-...
 ```python
 def del_tab(name,db):
     conn = sqlite3.connect(db)
@@ -141,10 +140,9 @@ def del_tab(name,db):
     conn.execute(st)
     conn.commit()
     conn.close()
-...
-...
+```
+
 User-Defined Function to delete a specific record in the ledger.
-...
 ```python
 def del_rec(name,db,sno):
     conn = sqlite3.connect(db)
@@ -154,15 +152,14 @@ def del_rec(name,db,sno):
     conn.execute(st,(sno))
     conn.commit()
     conn.close()
-...
-
+```
 
 User-Defined Function to update ledger from the records.
 ```python
 def update_rec(name,db,sno):
     del_rec(name,db,sno)
     update_end(name,db,sno)  
-...
+```
 
 
 3. ERROR HANDLING: The snippet is checking if the user entered the sl. No. of the last entry or if there are no prior entries. If either of these conditions is true, the snippet prints a message asking the user to select option 2. Otherwise, the snippet updates the sl. No. of all entries after the entered sl. No. by 1 and then calls the update_end() function to update the database.
@@ -173,7 +170,7 @@ if(sno >= len(Data) or len(Data) == 0):
         st = "UPDATE {0} SET Sl_No = Sl_No + 1 WHERE Sl_No > {1} ORDER BY Sl_No ASC;".format(name, sno)
         cuobj.execute(st)
         update_end(name, db, sno)
-...
+```
 
 
 4. HOW TO RUN THE PROGRAM: 
