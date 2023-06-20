@@ -6,7 +6,7 @@ Pre Requisits: The only pre requisits are for the SQLite3 and Tabulate packages 
 
 2.SOME OF THE IMPORTANT FUNCTIONS USED: 
 
-User-Defined Function to display the database the we have created through the input of the user.
+User-Defined Function to display the ledgers present in the Database.
 ```python
       def showtab(db):
     conn = sqlite3.connect(db)
@@ -16,7 +16,7 @@ User-Defined Function to display the database the we have created through the in
     conn.close()
 ```
 
-User-Defined Function to create the ledger.
+User-Defined Function to create a ledger.
 ```python
      def create_table(name, db):
     conn = sqlite3.connect(db)
