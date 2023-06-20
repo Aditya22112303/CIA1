@@ -174,9 +174,9 @@ if(sno >= len(Data) or len(Data) == 0):
         update_end(name, db, sno)
 ```
 
-
 4. SAMPLE OUTPUT:  
 ![Screenshot (44)](https://github.com/Aditya22112303/CIA1/assets/118894516/63e34755-7c9f-4648-bfda-93892d943016)
+
 ![Screenshot (38)](https://github.com/Aditya22112303/CIA1/assets/118894516/c60d4a89-e906-48c3-b581-69781de56337)
 ![Screenshot (40)](https://github.com/Aditya22112303/CIA1/assets/118894516/263d265c-04f9-4673-84c3-6b95250c0980)
 ![Screenshot (41)](https://github.com/Aditya22112303/CIA1/assets/118894516/e2d6dcba-88ba-42a0-b90a-d7fe8ede4f9b)
