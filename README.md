@@ -131,7 +131,9 @@ User-Defined Function to add record between the  ledgers.
     conn.commit()
     conn.close()
 ...
+...
 User-Defined Function to delete the whole exisiting ledger.
+...
 ```python
 def del_tab(name,db):
     conn = sqlite3.connect(db)
@@ -141,9 +143,9 @@ def del_tab(name,db):
     conn.commit()
     conn.close()
 ...
-
-
+...
 User-Defined Function to delete a specific record in the ledger.
+...
 ```python
 def del_rec(name,db,sno):
     conn = sqlite3.connect(db)
