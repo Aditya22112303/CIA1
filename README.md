@@ -175,13 +175,15 @@ if(sno >= len(Data) or len(Data) == 0):
 ```
 
 
-4. HOW TO RUN THE PROGRAM: 
-When the user will run the program,the user will be able to see an interface somewhat like the screenshot below.
+4. SAMPLE OUTPUT:  
 ![Screenshot (44)](https://github.com/Aditya22112303/CIA1/assets/118894516/63e34755-7c9f-4648-bfda-93892d943016)
-In the screenshot, 2 ledgers are already created and the user is creating the 3rd ledger by the name bank and then the user is choosing that the ledger entry amount is credit and then the user enetered the date.
 ![Screenshot (38)](https://github.com/Aditya22112303/CIA1/assets/118894516/c60d4a89-e906-48c3-b581-69781de56337)
+![Screenshot (40)](https://github.com/Aditya22112303/CIA1/assets/118894516/263d265c-04f9-4673-84c3-6b95250c0980)
+![Screenshot (41)](https://github.com/Aditya22112303/CIA1/assets/118894516/e2d6dcba-88ba-42a0-b90a-d7fe8ede4f9b)
+![Screenshot (42)](https://github.com/Aditya22112303/CIA1/assets/118894516/ff216c5a-6c70-43a5-8474-a47c081cb764)
+![Screenshot (43)](https://github.com/Aditya22112303/CIA1/assets/118894516/fd35a52c-53f2-4912-9ab6-86d815c3c491)
 
-![Screenshot (39)](https://github.com/Aditya22112303/CIA1/assets/118894516/b1b09d1e-d071-4d78-b87d-60b6aa657e9b)
+
 
 
 
